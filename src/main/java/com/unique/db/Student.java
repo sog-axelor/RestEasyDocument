@@ -18,6 +18,12 @@ public class Student {
 		this.fname = fname;
 		this.lname = lname;
 	}
+	public Student(int id,String fname, String lname) {
+		super();
+		this.id = id;
+		this.fname = fname;
+		this.lname = lname;
+	}
 	
 	
 	public Student() {
