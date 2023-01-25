@@ -25,6 +25,10 @@ public class Student {
 		this.lname = lname;
 	}
 	
+	public Student(int id) {
+		super();
+		this.id = id;
+	}
 	
 	public Student() {
 		super();
