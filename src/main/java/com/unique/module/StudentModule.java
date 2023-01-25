@@ -1,12 +1,12 @@
 package com.unique.module;
 
 import com.google.inject.AbstractModule;
-import com.unique.rest.HelloResource;
+import com.unique.rest.MainResources;
 
 public class StudentModule  extends AbstractModule{
 	
 	@Override
 	protected void configure() {
-		bind(HelloResource.class);
+		bind(MainResources.class);
 	}
 }

@@ -12,7 +12,7 @@ public class RestEasyConfig extends Application {
    private Set<Object> singletons  = new HashSet<>();
    
    public RestEasyConfig() {
-	   this.singletons.add(new HelloResource());
+	   this.singletons.add(new MainResources());
    }
    @Override
    public Set<Object> getSingletons(){
