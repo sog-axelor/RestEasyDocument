@@ -1,9 +1,5 @@
 package com.unique.rest;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 import javax.ws.rs.DELETE;
 import javax.ws.rs.FormParam;
 import javax.ws.rs.GET;
@@ -17,6 +13,7 @@ import javax.ws.rs.core.Response;
 
 import com.unique.db.Student;
 import com.unique.db.StudentData;
+import com.unique.provider.Book;
 
 @Path("/service")
 public class MainResources {
@@ -66,6 +63,17 @@ public class MainResources {
     	return Response.status(200).build();
     }
     
+    
+    @Path("/test_json")
+    @GET
+    @Produces(MediaType.APPLICATION_JSON)
+    public Book test_json() {
+        Book book = new Book();
+        book.setTitle("EJB 3.0");
+        book.setAuthor("Bill Burke");
+        book.setISBN("596529260");
+        return book;
+    }
     
     
     
