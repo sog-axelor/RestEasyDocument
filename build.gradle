@@ -13,4 +13,11 @@ dependencies {
     implementation 'org.jboss.resteasy:resteasy-jaxrs:3.9.0.Final'
     implementation 'org.jboss.resteasy:resteasy-servlet-initializer:3.9.0.Final'
     implementation 'org.jboss.resteasy:resteasy-jackson2-provider:3.9.0.Final'
+    implementation 'org.jboss.resteasy:resteasy-html:3.6.0.Final'
+    implementation 'com.google.inject.extensions:guice-servlet:4.2.0'
+    implementation 'org.jboss.resteasy:resteasy-guice:3.6.0.Final'
+    implementation 'com.google.inject.extensions:guice-servlet:4.2.0'
+    implementation 'javax.servlet:javax.servlet-api:4.0.0'
+    
+    
 }
